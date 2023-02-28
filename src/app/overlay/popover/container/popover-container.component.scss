@@ -1,0 +1,14 @@
+.container {
+  &::before {
+    max-width: 400px;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: -8px;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: black transparent #2196f3 transparent;
+  }
+
+  max-width: 400px;
+}

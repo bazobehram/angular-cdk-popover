@@ -1,0 +1,6 @@
+<mat-card>
+  <mat-card-content class="container">
+    <p [innerHTML]="text"></p>
+    <button mat-button *ngIf="cButton" (click)="confirm()">Got It</button>
+  </mat-card-content>
+</mat-card>
