@@ -1,27 +1,40 @@
-# OverlayPopover
+# Angular Popover Directive
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+Angular Popover Directive
+This is an Angular directive that creates a popover component. The directive allows you to attach a popover to any element that you specify.
 
-## Development server
+## Run Locally
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Install dependencies
 
-## Code scaffolding
+```bash
+  npm install
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+  ng serve
+```
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage/Examples
 
-## Running unit tests
+```javascript
+<button popoverTemplate text="Hello, world!">Show Popover</button>
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The popoverTemplate directive can be used on any HTML element. The text input specifies the text to be displayed in the popover.
 
-## Running end-to-end tests
+##  Options
+The popoverTemplate directive has several input options:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+text: (required) - The text to be displayed in the popover.
+cButton: (optional, default false) - Whether to display a close button in the popover. <br>
+closeOnClickOutside: (optional, default false) - Whether to close the popover when the user clicks outside of it.
+Styling <br>
+The popover can be styled using CSS. The popover component has a class of popover-container. <br>
 
-## Further help
+Built With <br>
+Angular <br>
+Angular Material CDK <br> <br>
+Contributions are welcome. Please submit a pull request. <br>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
