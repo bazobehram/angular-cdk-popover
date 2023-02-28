@@ -1,4 +1,4 @@
-# Angular Popover Directive
+# Angular Popover
 
 Angular Popover Directive
 This is an Angular directive that creates a popover component. The directive allows you to attach a popover to any element that you specify.
